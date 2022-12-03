@@ -1,0 +1,9 @@
+create database produto;
+use produto;
+create table produto(
+cod_prod int primary key  not null,
+descricao varchar(45) not null,
+valor decimal(4,2) not null,
+quantidade int not null,
+pag char(10) not null
+);
